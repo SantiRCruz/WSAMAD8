@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WSAMAD8</string>
+    <string name="sign_in">Sign In</string>
+    <string name="if_you_don_t_have_account_credentials_you_can_take_it_nin_near_hospital_in_your_city_after_vaccination">if you don’t have account credentials, you can take it\nin near hospital in your city after vaccination</string>
+    <string name="your_password">Your Password</string>
+    <string name="we_can_t_find_account_with_this_credentials">We can’t find account with this credentials</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="wsa_care">WSA Care</string>
+    <string name="in_skill_area_in_the_last_14_days">in Skill area in the last 14 days</string>
+    <string name="check_in_now">Check In Now</string>
+</resources>

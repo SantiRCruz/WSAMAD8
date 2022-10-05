@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/round"
+    android:backgroundTint="@color/light_dark_blue_200"
+    >
+
+    <TextView
+        android:id="@+id/txtYearHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/txtMonthDay"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintTop_toTopOf="@+id/txtMonthDay"
+        tools:text="2021 07:01AM" />
+
+    <TextView
+        android:id="@+id/txtMonthDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/txtYearHour"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="08/04"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/llBg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_tpl_btr"
+        android:layout_marginEnd="10dp"
+        android:paddingVertical="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/txtMonthDay"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CALL TO DOCTOR"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
