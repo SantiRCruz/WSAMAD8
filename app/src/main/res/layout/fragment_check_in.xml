@@ -48,10 +48,48 @@
         android:id="@+id/rvList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtActualDate" />
+
+    <ImageView
+        android:id="@+id/imgAdd"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/add"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rvList" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="20dp"
+        android:paddingVertical="10dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/confirm"
+        android:textColor="@color/light_dark_blue_200"
+        app:backgroundTint="@color/white"
+        app:cornerRadius="6dp"
+        app:drawableTint="@color/light_dark_blue_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgAdd" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgAdd" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

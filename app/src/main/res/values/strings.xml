@@ -9,4 +9,8 @@
     <string name="wsa_care">WSA Care</string>
     <string name="in_skill_area_in_the_last_14_days">in Skill area in the last 14 days</string>
     <string name="check_in_now">Check In Now</string>
+    <string name="choose_your_best_option">Choose your best option</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="confirm">Confirm</string>
 </resources>

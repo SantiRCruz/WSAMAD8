@@ -111,9 +111,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:layout_marginBottom="100dp"
                 android:drawableEnd="@drawable/ic_baseline_arrow_right_alt_24"
                 android:elevation="20dp"
-                android:layout_marginBottom="100dp"
                 android:paddingVertical="10dp"
                 android:text="@string/sign_in"
                 android:textColor="@color/light_dark_blue_200"
@@ -122,8 +122,10 @@
                 app:drawableTint="@color/light_dark_blue_200"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.505"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+                app:layout_constraintVertical_bias="0.0" />
 
             <ProgressBar
                 android:id="@+id/progressBar"
